@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "assortment_fingerprint": "b85f90c47628f3db35ad52bd972ea5324e75fbf8aeee113124a7c2115625302a",
+  "provenance": "Prepared, deterministic demo outputs generated from the bundled workbook. These are not prior live API responses.",
+  "analyses": {
+    "Financial": {
+      "verdict": "support_with_changes",
+      "findings": [
+        {
+          "claim": "14 ft Giant Animated Dragon is Removed: $9,405,000 is supplier full-price potential, not realized profit. Mandatory buy: 45,000 units; display requirement: 4 facings. Forecast and markdown exposure require review.",
+          "evidence": [
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "gross_margin_dollars",
+              "value": "9405000.0"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "mandatory_purchase_quantity",
+              "value": "45000"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "required_facings",
+              "value": "4"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "source_type",
+              "value": "new_candidate"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "placement",
+              "value": "Removed"
+            }
+          ]
+        },
+        {
+          "claim": "Fog Machine w/ Bluetooth Sound: $740,000 potential and a mandatory purchase of 20,000 units do not establish demand. LED Fog Machine realized $48,500 with 32.0% full-price sell-through.",
+          "evidence": [
+            {
+              "product": "Fog Machine w/ Bluetooth Sound",
+              "field": "gross_margin_dollars",
+              "value": "740000.0"
+            },
+            {
+              "product": "Fog Machine w/ Bluetooth Sound",
+              "field": "mandatory_purchase_quantity",
+              "value": "20000"
+            },
+            {
+              "product": "Fog Machine w/ Bluetooth Sound",
+              "field": "source_type",
+              "value": "new_candidate"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "gross_margin_dollars",
+              "value": "48500.0"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "full_price_sell_through",
+              "value": "0.32"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "source_type",
+              "value": "current"
+            }
+          ]
+        },
+        {
+          "claim": "12 ft Giant Skeleton provides a historical benchmark: $6,621,000 realized GM across channels / 3 required facings = $2,207,000 per required facing. This is a space-comparison proxy, not attributable store profit.",
+          "evidence": [
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "gross_margin_dollars",
+              "value": "6621000.0"
+            },
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "required_facings",
+              "value": "3"
+            },
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "source_type",
+              "value": "current"
+            }
+          ]
+        },
+        {
+          "claim": "12 ft Reaper Inflatable: $13,500 historical realized GM and 2.5% realized rate. 8 ft Inflatable Black Cat: $624,000 supplier potential and 49.4% estimated unit rate. These are different performance bases; a replacement is a test of unproven demand, not a guaranteed uplift.",
+          "evidence": [
+            {
+              "product": "12 ft Reaper Inflatable",
+              "field": "gross_margin_dollars",
+              "value": "13500.0"
+            },
+            {
+              "product": "12 ft Reaper Inflatable",
+              "field": "gross_margin_rate",
+              "value": "0.02521008403361345"
+            },
+            {
+              "product": "12 ft Reaper Inflatable",
+              "field": "required_facings",
+              "value": "1"
+            },
+            {
+              "product": "8 ft Inflatable Black Cat",
+              "field": "gross_margin_dollars",
+              "value": "624000.0"
+            },
+            {
+              "product": "8 ft Inflatable Black Cat",
+              "field": "gross_margin_rate",
+              "value": "0.4936708860759494"
+            },
+            {
+              "product": "8 ft Inflatable Black Cat",
+              "field": "required_facings",
+              "value": "1"
+            },
+            {
+              "product": "8 ft Inflatable Black Cat",
+              "field": "mandatory_purchase_quantity",
+              "value": "16000"
+            }
+          ]
+        }
+      ],
+      "primary_risk": "Supplier potential assumes full-price demand; it cannot be added to historical GM as a forecast. Mandatory buys create markdown exposure.",
+      "recommended_changes": [
+        {
+          "product": "12 ft Reaper Inflatable",
+          "from_placement": "In Store",
+          "to_placement": "Removed",
+          "reason": "Exchange one facing: weaker historical realized margin for an unproven house-brand candidate; supplier upside remains uncertain."
+        },
+        {
+          "product": "8 ft Inflatable Black Cat",
+          "from_placement": "Removed",
+          "to_placement": "In Store",
+          "reason": "Exchange one facing: weaker historical realized margin for an unproven house-brand candidate; supplier upside remains uncertain."
+        }
+      ]
+    },
+    "Customer and Merchandising": {
+      "verdict": "support_with_changes",
+      "findings": [
+        {
+          "claim": "12 ft Giant Skeleton: rating 4.5, review count 1,200, full-price sell-through 95.0%. Available historical observations inform the decision; missing metrics provide no customer evidence. Current proposal: In Store.",
+          "evidence": [
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "star_rating",
+              "value": "4.5"
+            },
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "reviews",
+              "value": "1200"
+            },
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "full_price_sell_through",
+              "value": "0.95"
+            },
+            {
+              "product": "12 ft Giant Skeleton",
+              "field": "placement",
+              "value": "In Store"
+            }
+          ]
+        },
+        {
+          "claim": "24 in Metal Tombstone has 5.0 stars but only 6 reviews. Treat the rating with less confidence than a large review sample.",
+          "evidence": [
+            {
+              "product": "24 in Metal Tombstone",
+              "field": "star_rating",
+              "value": "5.0"
+            },
+            {
+              "product": "24 in Metal Tombstone",
+              "field": "reviews",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "claim": "10.5 ft Licensed Character Inflatable combines a 4.8-star rating with 4.2% realized margin rate. Customer signals and financial efficiency point in different directions.",
+          "evidence": [
+            {
+              "product": "10.5 ft Licensed Character Inflatable",
+              "field": "star_rating",
+              "value": "4.8"
+            },
+            {
+              "product": "10.5 ft Licensed Character Inflatable",
+              "field": "reviews",
+              "value": "220"
+            },
+            {
+              "product": "10.5 ft Licensed Character Inflatable",
+              "field": "gross_margin_rate",
+              "value": "0.04226374025031743"
+            },
+            {
+              "product": "10.5 ft Licensed Character Inflatable",
+              "field": "licensed",
+              "value": "Yes"
+            }
+          ]
+        },
+        {
+          "claim": "The proposed aisle ranges from $24.98 (24 in Metal Tombstone) to $399 (9 ft Animated Pirate Ship). Preserve entry and premium choices; the workbook supplies no formal good-better-best thresholds.",
+          "evidence": [
+            {
+              "product": "24 in Metal Tombstone",
+              "field": "retail_price",
+              "value": "24.98"
+            },
+            {
+              "product": "24 in Metal Tombstone",
+              "field": "placement",
+              "value": "In Store"
+            },
+            {
+              "product": "9 ft Animated Pirate Ship",
+              "field": "retail_price",
+              "value": "399.0"
+            },
+            {
+              "product": "9 ft Animated Pirate Ship",
+              "field": "placement",
+              "value": "In Store"
+            }
+          ]
+        },
+        {
+          "claim": "LED Fog Machine achieved 32.0% full-price sell-through at a retail price of $59. 24 in Light-Up Pumpkin Stack is a candidate entry-price alternative at $29.98, with 22,000 units required and no historical ratings or sell-through.",
+          "evidence": [
+            {
+              "product": "LED Fog Machine",
+              "field": "full_price_sell_through",
+              "value": "0.32"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "retail_price",
+              "value": "59.0"
+            },
+            {
+              "product": "24 in Light-Up Pumpkin Stack",
+              "field": "retail_price",
+              "value": "29.98"
+            },
+            {
+              "product": "24 in Light-Up Pumpkin Stack",
+              "field": "mandatory_purchase_quantity",
+              "value": "22000"
+            },
+            {
+              "product": "24 in Light-Up Pumpkin Stack",
+              "field": "source_type",
+              "value": "new_candidate"
+            },
+            {
+              "product": "24 in Light-Up Pumpkin Stack",
+              "field": "star_rating",
+              "value": "Not available"
+            }
+          ]
+        }
+      ],
+      "primary_risk": "Ratings with few reviews and supplier descriptions do not prove demand for new candidates.",
+      "recommended_changes": [
+        {
+          "product": "LED Fog Machine",
+          "from_placement": "In Store",
+          "to_placement": "Removed",
+          "reason": "Replace a weak historical fog performer with a lower-ticket seasonal entry point; new-item demand is unproven."
+        },
+        {
+          "product": "24 in Light-Up Pumpkin Stack",
+          "from_placement": "Removed",
+          "to_placement": "In Store",
+          "reason": "Replace a weak historical fog performer with a lower-ticket seasonal entry point; new-item demand is unproven."
+        }
+      ]
+    },
+    "Operations and Channel": {
+      "verdict": "support_with_changes",
+      "findings": [
+        {
+          "claim": "14 ft Giant Animated Dragon requires 4/16 facings (25% of the aisle if selected). Mandatory purchase: 45,000 units. Current proposal: Removed.",
+          "evidence": [
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "required_facings",
+              "value": "4"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "mandatory_purchase_quantity",
+              "value": "45000"
+            },
+            {
+              "product": "14 ft Giant Animated Dragon",
+              "field": "placement",
+              "value": "Removed"
+            }
+          ]
+        },
+        {
+          "claim": "16 ft Inflatable Haunted Archway sold 6,000 units online and 0 in stores last season. Required display space is 3 facings if moved in store; online placement uses none.",
+          "evidence": [
+            {
+              "product": "16 ft Inflatable Haunted Archway",
+              "field": "online_units",
+              "value": "6000"
+            },
+            {
+              "product": "16 ft Inflatable Haunted Archway",
+              "field": "store_units",
+              "value": "0"
+            },
+            {
+              "product": "16 ft Inflatable Haunted Archway",
+              "field": "required_facings",
+              "value": "3"
+            },
+            {
+              "product": "16 ft Inflatable Haunted Archway",
+              "field": "placement",
+              "value": "Online Only"
+            }
+          ]
+        },
+        {
+          "claim": "12 ft Inflatable Haunted Tree needs 2 facings. The merchant note says it ships in a compact carton and asks whether it belongs online; freight costs and lead times are not supplied.",
+          "evidence": [
+            {
+              "product": "12 ft Inflatable Haunted Tree",
+              "field": "required_facings",
+              "value": "2"
+            },
+            {
+              "product": "12 ft Inflatable Haunted Tree",
+              "field": "merchant_notes",
+              "value": "Large footprint but ships in a compact carton - worth asking whether this belongs online rather than in the aisle."
+            }
+          ]
+        },
+        {
+          "claim": "LED Fog Machine: clearance units 17,000; units bought 25,000. Adding new fog inventory needs an explicit demand decision.",
+          "evidence": [
+            {
+              "product": "LED Fog Machine",
+              "field": "units_sold_clearance",
+              "value": "17000"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "units_bought",
+              "value": "25000"
+            },
+            {
+              "product": "LED Fog Machine",
+              "field": "full_price_sell_through",
+              "value": "0.32"
+            }
+          ]
+        }
+      ],
+      "primary_risk": "The workbook does not establish freight cost, damage rates, lead times or labor requirements. Channel recommendations remain provisional.",
+      "recommended_changes": []
+    }
+  }
+}
